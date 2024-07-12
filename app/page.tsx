@@ -2,7 +2,7 @@ import { FC } from "react";
 import { toWords } from "number-to-words";
 
 const Home: FC = () => {
-  const numbers = Array.from({ length: 100 }, (_, i) => i + 1);
+  const numbers = Array.from({ length: 1000000 }, (_, i) => i + 1);
 
   return (
     <main className="container mx-auto py-8 leading-10 text-center">
